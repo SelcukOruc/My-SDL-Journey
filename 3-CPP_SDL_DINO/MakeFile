@@ -1,0 +1,2 @@
+all:
+	g++ -I src -L src/lib -o main main.cpp src/MyCppFiles/Game.cpp src/MyCppFiles/Transform.cpp src/MyCppFiles/Sprite.cpp src/MyCppFiles/Collision.cpp src/MyCppFiles/Time.cpp src/MyCppFiles/Input.cpp src/MyCppFiles/Config.cpp src/MyCppFiles/Text.cpp src/MyCppFiles/Button.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf 
